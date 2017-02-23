@@ -46,7 +46,7 @@
 
 </head>
 <body>
-	<h1>Login to CloudNativeSampleApp</h1>
+	<h1>Login to CloudNative Sample App</h1>
 
 	<c:url var="loginAction" value="/loginAction"></c:url>
 
