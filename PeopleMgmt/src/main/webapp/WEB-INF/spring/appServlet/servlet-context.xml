@@ -92,10 +92,13 @@
 	</beans:bean>
 
 	<!-- Redis setting -->
+	<!-- 
 	<beans:bean class="org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration"/>
 	<beans:bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory" p:host-name="${SESSION_CACHE_HOST}" p:port="${SESSION_CACHE_PORT}"/>
 	
 	<util:constant
         static-field="org.springframework.session.data.redis.config.ConfigureRedisAction.NO_OP"/>
+        
+         -->
 
 </beans:beans>
